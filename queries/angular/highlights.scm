@@ -1,6 +1,6 @@
 (identifier) @variable
 (pipe_sequence "|" @operator)
-(string) @string
+(string "{{" @punctuation.bracket)
 (number) @number
 (pipe_call
   name: (identifier) @function)
@@ -21,11 +21,6 @@
   function: ((identifier) @function.builtin
     (#eq? @function.builtin "$any")))
 
-[
-  "{{" "}}"
-  "{%" "%}"
-  (string)
-] @punctuation.bracket
 
 [
 "let"
