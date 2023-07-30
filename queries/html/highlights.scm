@@ -11,10 +11,13 @@
    (#lua-match? @_name "^%*.*"))) @tag.attribute
 
 [
-"("
-")"
-"["
-"]"
-"{"
-"}"
-] @punctuation.bracket
+  "{{"
+  "}}"
+  "("
+  ")"
+  "["
+  "]"
+  "{"
+  "}"
+] 
+@punctuation.bracket

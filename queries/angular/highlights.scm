@@ -1,6 +1,6 @@
 (identifier) @variable
 (pipe_sequence "|" @operator)
-(string "{{" @punctuation.bracket)
+(string) @string
 (number) @number
 (pipe_call
   name: (identifier) @function)
