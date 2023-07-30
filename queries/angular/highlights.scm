@@ -22,6 +22,12 @@
     (#eq? @function.builtin "$any")))
 
 [
+  "{{" "}}"
+  "{%" "%}"
+  (end_paired_statement)
+] @punctuation.bracket
+
+[
 "let"
 "as"
 ] @keyword
