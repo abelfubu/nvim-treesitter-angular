@@ -9,3 +9,12 @@
 (attribute
   ((attribute_name) @_name
    (#lua-match? @_name "^%*.*"))) @tag.attribute
+
+[
+"("
+")"
+"["
+"]"
+"{"
+"}"
+] @punctuation.bracket
