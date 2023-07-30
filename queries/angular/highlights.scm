@@ -24,7 +24,7 @@
 [
   "{{" "}}"
   "{%" "%}"
-  (end_paired_statement)
+  (string)
 ] @punctuation.bracket
 
 [
