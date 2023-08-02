@@ -21,6 +21,7 @@
   function: ((identifier) @function.builtin
     (#eq? @function.builtin "$any")))
 
+(property) @property
 
 [
 "let"
